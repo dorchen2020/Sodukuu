@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sudoko</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div id='tableDiv'>
+        <!-- table from js
+
+        9 table row, inside each row 9 table data
+
+        each table data look like that:
+ 
+        <td><input type="text" maxlength="1" id="1" oninput="justDigit(id,value)" ></td>
+        
+        other way oninput with regex: oninput="this.value=this.value.replace(/[^0-9]/g,'')";
+          -->
+    </div>
+
+
+
+
+    <!-- <div id='lines'>
+    <div id='horizenLine1'>
+        <hr>
+    </div>
+    <div id='horizenLine2'>
+        <hr>
+    </div>
+    <div id='verticLine1'>
+        <hr size="592">
+    </div>
+    <div id='verticLine2'>
+        <hr size="592">
+    </div>
+</div> -->
+
+
+<!-- <div id='lines'>
+ <img src="linesPic.png" alt='fsdfsfsdfsdf'>
+</div> -->
+
+<div id='buttonsDiv'>
+    <select id="board" onchange='changeBoard()'
+    >
+        <option value="Choose Board">Choose Board</option>
+        <option value="board 1">board 1</option>
+        <option value="board 2">board 2</option>
+        <option value="board 3">board 3</option>
+        <option value="board 4">board 4</option>
+    </select><br>
+    <select id="level">
+        <option value="Choose Level">Choose Level</option>
+        <option value="Easy">Easy</option>
+        <option value="Medium">Medium</option>
+        <option value="Hard">Hard</option>
+    </select><br>
+    <button id='startBTN' onclick="start()">Start</button><br>
+    <button id='checkBTN' onclick="isValidMat()">Check</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+
+</html>

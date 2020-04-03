@@ -1,0 +1,76 @@
+body{
+    margin:auto;
+    width: 60%;
+    background-color: rgb(121, 152, 236);
+}
+input{
+height: 35px;
+width: 65%;
+font-size: 20px;
+}
+
+.container{
+    text-align: center;
+    padding: 40px;
+    background-color: cadetblue;
+    margin-top: 100px;
+    border: 10px dashed green;
+    border-radius: 15%;
+    height: 375px;
+}
+
+h2{
+    font-size: 50px;
+    margin: 0px;
+    color:rgb(18, 13, 47);
+}
+button{
+    width: 100px;
+    height: 40px;
+    background-color: azure;
+}
+
+#statusText{
+    color: red;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+
+    body{
+        margin:auto;
+        
+        width: 85%;
+        background-color: rgb(121, 152, 236);
+    }
+    input{
+    height: 35px;
+    width: 60%;
+    font-size: 20px;
+    }
+    
+    .container{
+        text-align: center;
+        padding: 40px;
+        background-color: cadetblue;
+        margin-top: 100px;
+        border: 10px dashed green;
+        border-radius: 15%;
+        height: 375px;
+    }
+    
+    h2{
+        font-size: 50px;
+        margin: 0px;
+        color:rgb(18, 13, 47);
+    }
+    button{
+        width: 100px;
+        height: 40px;
+        background-color: azure;
+    }
+    #statusText{
+        /* dosnt work */
+        color: red;
+    }
+  }
