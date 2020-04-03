@@ -10,7 +10,6 @@ function isValidDetails() {
 }
 
 // Sudoku Page
-// startttttttt to fixxxxxx the mobileeeee visualizationnnnnnnnnnn#&^&$^*%*&**$^*%$^&^%&*^*&
 
 //================ create empty table 9*9 ================//
 
@@ -142,21 +141,8 @@ for (let i = 1; i < 81; i++) {
 // press on Start button (board and level are required field)
 function changeBoard() {
     var board = document.getElementById("board").value;
-    // let MediaQueryMobile = window.matchMedia('(max-width: 768px)');
     let boardImage = document.getElementById('tableDiv');
     
-    // boards for mobile
-    // if (MediaQueryMobile.matches) { // If media query (MediaQueryMob) matches
-    //     if (board == 'board 1')
-    //         boardImage.style.backgroundImage = "url('boards/‏lines1Mob.png')";
-    //     else if (board == 'board 2')
-    //         boardImage.style.backgroundImage = "url('boards/lines2Mob.png')";
-    //     else if (board == 'board 3')
-    //         boardImage.style.backgroundImage = "url('boards/lines3Mob.png')";
-    //     else if(board == 'board 4')
-    //         boardImage.style.backgroundImage = "url('boards/‏lines4Mob.png')";
-    // }
-    // else {
         // boards for web
         if (board == 'board 1')
             boardImage.style.backgroundImage = "url('boards/lines1.png')";
@@ -168,7 +154,7 @@ function changeBoard() {
             boardImage.style.backgroundImage = "url('boards/lines4.png')";
     }
 
-
+// press on Start button (level are required field)
 function start() {
 
     changeBoard(); // press on start refresh board (when go from web to mobile and opposite)

@@ -78,10 +78,6 @@ position: absolute;
 
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
-    
-     /* startttttttt to fixxxxxx the mobileeeee visualizationnnnnnnnnnn#&^&$^*%*&**$^*%$^&^%&*^*& */
-
-    
     body{
         margin: auto;
         margin-top: 20px;
@@ -94,11 +90,8 @@ position: absolute;
         /* background-color: blue; */
     }
     #tableDiv{
-        /* background-size: 344px 325px; */
-        background-size: 334px 315px;
-
+        background-size: 344px 325px;
     }
-    
     input{
         padding: 5px;
         width: 17.5px;
