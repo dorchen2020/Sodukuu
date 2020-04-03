@@ -84,7 +84,7 @@ position: absolute;
     
     body{
         margin: auto;
-        margin-top: 40px;
+        margin-top: 20px;
         margin-left:5%;
         background-color: rgb(121, 152, 236);
     }
@@ -94,7 +94,9 @@ position: absolute;
         /* background-color: blue; */
     }
     #tableDiv{
-        background-size: 344px 325px;
+        /* background-size: 344px 325px; */
+        background-size: 334px 315px;
+
     }
     
     input{
